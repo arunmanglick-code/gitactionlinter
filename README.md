@@ -17,7 +17,7 @@ The end goal of this tool:
     Prevent broken code from being uploaded to the default branch (Usually master or main)
     Help establish coding best practices across multiple languages
     Build guidelines for code layout and format
-    Automate the process to help streamline code reviews.
+    Automate the process to help streamline code reviews
 -------------------------------------------------------------------------
 
 What is Github Actions:
