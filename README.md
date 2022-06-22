@@ -3,6 +3,7 @@ Github Code Reference: https://github.com/devopsjourney1/mygitactions
 Github Actions Marketplace:  https://github.com/marketplace?type=actions
 
 Learning Github Actions: https://docs.github.com/en/actions/learn-github-actions
+Available list of GA Actions: https://github.com/actions
 Complete List of Events : https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 -------------------------------------------------------------------------
 
