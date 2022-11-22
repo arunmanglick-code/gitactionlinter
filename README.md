@@ -4,7 +4,8 @@ Github Actions Marketplace:  https://github.com/marketplace?type=actions
 
 Learning Github Actions: https://docs.github.com/en/actions/learn-github-actions
 Available list of GA Actions: https://github.com/actions
-Complete List of Events : https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
+Complete List of Events that trigger workflows : https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows : 
+
 -------------------------------------------------------------------------
 
 What is a super Linter?
@@ -20,7 +21,6 @@ The end goal of this tool:
     Build guidelines for code layout and format
     Automate the process to help streamline code reviews.
 -------------------------------------------------------------------------
-
 What is Github Actions:
 GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows you to automate your build, test, and deployment pipeline. You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production.
 
@@ -43,3 +43,15 @@ A runner is a server that runs your workflows when they're triggered.
 Each runner can run a single job at a time. 
 GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine. 
 If you need a different operating system or require a specific hardware configuration, you can host your own runners. For more information about self-hosted runner
+------------------------------------------------------------
+How to enable additional debug logging:
+
+If the workflow logs do not provide enough detail to diagnose why a workflow, job, or step is not working as expected, you can enable additional debug logging. 
+
+1). To enable runner diagnostic logging, set the following 'secret' in the repository that contains the workflow: 'ACTIONS_RUNNER_DEBUG' to true.
+
+2). To enable step debug logging, you must set the following 'secret' in the repository that contains the workflow: 'ACTIONS_STEP_DEBUG' to true.
+
+
+
+
