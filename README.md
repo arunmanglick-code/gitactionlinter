@@ -51,6 +51,9 @@ If the workflow logs do not provide enough detail to diagnose why a workflow, jo
 1). To enable runner diagnostic logging, set the following 'secret' in the repository that contains the workflow: 'ACTIONS_RUNNER_DEBUG' to true.
 
 2). To enable step debug logging, you must set the following 'secret' in the repository that contains the workflow: 'ACTIONS_STEP_DEBUG' to true.
+------------------------------------------
+
+# Add Line to trigger the GHA Workflow
 
 
 
